@@ -1,0 +1,115 @@
+{
+    "id": "3ukppjsCm2FdzBLPNv-MeEe-AGgx-RwRi-CqOTWXlxajT0",
+    "status": "idle",
+    "final_price": {
+        "status": "ready",
+        "initial": 0,
+        "renewal": 0
+    },
+    "tax": {
+        "status": "ready",
+        "quote": 0
+    },
+    "tax_data": null,
+    "type": "purchase",
+    "amount": 1,
+    "authenticated": true,
+    "country": "CA",
+    "d2c": true,
+    "plan_id": "plan_I...Tr",
+    "tasks": [
+        {
+            "id": "plan_I...Tr",
+            "stage": "before_checkout",
+            "message": "Failed to process. Please wait a few minutes and try again.",
+            "status": "failed"
+        }
+    ],
+    "updated_at": "2025-11-19T14:32:42.885Z",
+    "created_at": "2025-11-19T14:31:42.764Z",
+    "submitted_at": "2025-11-19T14:32:40.317Z",
+    "free": false,
+    "patch_id": "845ea321-4267-4c05-836a-5b2c918ede38",
+    "completed": false,
+    "user": {
+        ...
+    },
+    "email": null,
+    "raw_price": {
+        "initial": 0,
+        "renewal": 240
+    },
+    "currency": "usd",
+    "processors": [
+        {
+            "processor": "multi_psp",
+            "processor_config": {
+                ...
+            }
+        },
+        {
+            "processor": "paypal",
+            "processor_config": {
+                "color": "blue",
+                "updated_at": 1763562737059,
+                ...
+            }
+        }
+    ],
+    "payment_method": {
+        "identifier": null,
+        "id": "payt_Jd...y",
+        "processor": "paypal",
+        "status": "ready"
+    },
+    "payment_methods": [
+        {
+            "processor": "multi_psp",
+            ...
+        }
+    ],
+    "billing_address": null,
+    "shipping_address": null,
+    "promo_code": {
+        "duration": "forever",
+        "amount": 1,
+        "currency": "usd",
+        "intervals": 0,
+        "code": "100off",
+        "type": "percentage"
+    },
+    "transfer": null,
+    "top_up": false,
+    "plan": {
+        ...
+    },
+    "product": {
+        ...
+    },
+    "company": {
+        ...
+    },
+    "capabilities": [
+        "vat_id",
+        "tos"
+    ],
+    ...,
+    "errors": {
+        "845ea321-4267-4c05-836a-5b2c918ede38": {
+            "general": [
+                "Failed to process. Please wait a few minutes and try again."
+            ]
+        }
+    },
+    "custom_field_responses": [],
+    "transfer_funds": null,
+    "transfer_funds_recipient": null,
+    "platform_fee": {
+        "amount": 0,
+        "processors": [
+            "stripe",
+            "multi_psp"
+        ]
+    },
+    ...
+}
